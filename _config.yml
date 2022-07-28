@@ -1,0 +1,6 @@
+analytics: false
+baseurl: ""
+plugins:
+  - jekyll-postcss
+title: "The Five Tenets of Flexible Commerce"
+url: "http://127.0.0.1:4000"

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en-AU' }}" style="font-size: 18px;">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  </head>
+  <body class="font-body antialiased">
+    {{ content }}
+    {% if site.analytics %}
+      {% include common/analytics.html %}
+    {% endif %}
+  </body>
+</html>
